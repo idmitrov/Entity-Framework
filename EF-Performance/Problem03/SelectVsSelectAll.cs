@@ -53,7 +53,7 @@ namespace Problem03
                         {
                             foreach (var ad in db.Ads.Select(a => a.Title))
                             {
-                                var currentAd = ad;
+                                var currentAdTitle = ad;
                             }
                         }
                         else
@@ -61,7 +61,7 @@ namespace Problem03
                         {
                             foreach (var ad in db.Ads)
                             {
-                                var currentAd = ad;
+                                var currentAdTitle = ad.Title;
                             }
                         }
 
