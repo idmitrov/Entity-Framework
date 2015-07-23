@@ -51,9 +51,9 @@ namespace Problem03
                         // CERTAIN COLUMN
                         if (queryType.ToLower() == "certain")
                         {
-                            foreach (var ad in db.Ads.Select(a => a.Title))
+                            foreach (var adTitle in db.Ads.Select(a => a.Title))
                             {
-                                var currentAdTitle = ad;
+                                var currentAdTitle = adTitle;
                             }
                         }
                         else
