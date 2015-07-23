@@ -1,0 +1,2 @@
+                          No Include(…)	With Include(…)
+Number of SQL statements	28	1
