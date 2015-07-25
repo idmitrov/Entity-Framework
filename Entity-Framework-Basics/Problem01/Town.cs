@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Problem01
+namespace test.GitHub.Entity_Framework.trunk.Entity_Framework_Basics.Problem01
 {
     using System;
     using System.Collections.Generic;
