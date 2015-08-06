@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDb-Database-First", "FootballDb\FootballDb-Database-First.csproj", "{4074BEF8-36FE-4868-8C5F-9F7473D2A5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.models", "Phonebook.models\Phonebook.models.csproj", "{A3E7EF98-4B37-494F-8A5D-BB1969DAA81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.Data", "Phonebook.Data\Phonebook.Data.csproj", "{A5E5430F-D220-4885-9F88-ABF177B51D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook.Client", "Phonebook.Client\Phonebook.Client.csproj", "{A8F99EB6-E846-4E35-9EC6-F7F605C9746A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JsonToImport", "JsonToImport", "{37EB35B0-D512-49BC-BCC4-5967FB3B2D96}"
+	ProjectSection(SolutionItems) = preProject
+		contacts.json = contacts.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4074BEF8-36FE-4868-8C5F-9F7473D2A5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4074BEF8-36FE-4868-8C5F-9F7473D2A5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4074BEF8-36FE-4868-8C5F-9F7473D2A5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4074BEF8-36FE-4868-8C5F-9F7473D2A5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E7EF98-4B37-494F-8A5D-BB1969DAA81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E7EF98-4B37-494F-8A5D-BB1969DAA81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E7EF98-4B37-494F-8A5D-BB1969DAA81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E7EF98-4B37-494F-8A5D-BB1969DAA81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E5430F-D220-4885-9F88-ABF177B51D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E5430F-D220-4885-9F88-ABF177B51D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E5430F-D220-4885-9F88-ABF177B51D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E5430F-D220-4885-9F88-ABF177B51D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F99EB6-E846-4E35-9EC6-F7F605C9746A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F99EB6-E846-4E35-9EC6-F7F605C9746A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F99EB6-E846-4E35-9EC6-F7F605C9746A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F99EB6-E846-4E35-9EC6-F7F605C9746A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
